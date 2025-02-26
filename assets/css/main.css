@@ -1261,6 +1261,7 @@ section,
 .portfolio .portfolio-content {
   position: relative;
   overflow: hidden;
+  height: 200px !important;
 }
 
 .portfolio .portfolio-content img {
@@ -1275,6 +1276,7 @@ section,
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.6);
   padding: 15px;
+  height: 200px;
 }
 
 .portfolio .portfolio-content .portfolio-info h4 {
