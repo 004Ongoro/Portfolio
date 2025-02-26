@@ -2,33 +2,65 @@
   {
     "id": "004_1",
     "name": "GsCapture",
-    "description": "GsCapture",
+    "description": "A functional screenshot, screen recording, photo editor all-in-one application made using C#",
     "category": "desktop",
-    "image": "../assets/img/hero-bg.jpg",
-    "link": "https://www.github.com/004Ongoro/"
+    "image": "../assets/img/portfolio/GsCapture.png",
+    "link": "https://www.github.com/Joojmusic/GsCapture"
   },
   {
     "id": "004_2",
     "name": "Numsnap",
-    "description": "Numsnap",
+    "description": "A mobile app that scans images and extract contact details and automatically saves them to phonebook",
     "category": "mobile",
-    "image": "../assets/img/hero-bg.jpg",
-    "link": "https://www.github.com/004Ongoro/"
+    "image": "https://github.com/004Ongoro/assets/blob/5fde4d37e01bb6eff21f80e802e3c158013b46ed/Untitled%20design_20250227_111530_0000.png",
+    "link": "https://www.github.com/Joojmusic/Numsnap"
   },
   {
     "id": "004_3",
     "name": "Eldema Letap Website",
-    "description": "School Website",
+    "description": "Official Website for Eldema Letap Academy",
     "category": "web",
     "image": "../assets/img/hero-bg.jpg",
     "link": "https://www.github.com/004Ongoro/"
   },
   {
     "id": "004_4",
-    "name": "GsCapture",
-    "description": "GsCapture",
-    "category": "GsCapture",
+    "name": "PixelForge",
+    "description": "An image processing Library for .NET apps",
+    "category": "lib",
     "image": "../assets/img/hero-bg.jpg",
-    "link": "https://www.github.com/004Ongoro/"
+    "link": "https://www.github.com/004Ongoro/PixelForgeProcessor"
+  },
+  {
+    "id": "004_5",
+    "name": "Gelnotes",
+    "description": "User friendly and lightweight text editor application",
+    "category": "desktop",
+    "image": "../assets/img/portfolio/Notepad.png",
+    "link": "https://www.github.com/Joojmusic/Gelnotes"
+  },
+  {
+    "id": "004_6",
+    "name": "Best Color Picker",
+    "description": "A tool for picking any color from the screen",
+    "category": "desktop",
+    "image": "../assets/img/portfolio/BCPicker.png",
+    "link": "https://www.github.com/004Ongoro/PixelForgeProcessor"
+  },
+  {
+    "id": "004_7",
+    "name": "PlayVids",
+    "description": "An all media player app for mobile",
+    "category": "mobile",
+    "image": "../assets/img/portfolio/product-1.jpg",
+    "link": "https://www.github.com/Joojmusic/PlayVids"
+  },
+  {
+    "id": "004_8",
+    "name": "Calculator",
+    "description": "An advanced calculator app",
+    "category": "desktop",
+    "image": "../assets/img/portfolio/Calculator.png",
+    "link": "https://www.github.com/Joojmusic/Calculator"
   }
 ]

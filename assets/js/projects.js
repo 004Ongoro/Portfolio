@@ -3,7 +3,7 @@ let projects = [];
 async function loadProjects() {
   const response = await fetch("../../data/projects.json");
   projects = await response.json();
-  displayProjects("all");
+  displayProjects("lib");
 }
 
 function displayProjects(category) {
@@ -13,7 +13,7 @@ function displayProjects(category) {
     if (category === "all" || project.category === category) {
       const projectCard = `
             <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+                class="col-lg-4 col-md-6 portfolio-item"
               >
                 <div class="portfolio-content h-100">
                   <img
@@ -27,7 +27,6 @@ function displayProjects(category) {
                     <a
                       href="${project.image}"
                       title="${project.name}"
-                      data-gallery="portfolio-gallery-branding"
                       class="glightbox preview-link"
                       ><i class="bi bi-zoom-in"></i
                     ></a>
@@ -60,11 +59,8 @@ const filterAndroid = document.getElementById("filterButtonAndroid");
 const filterDesktop = document.getElementById("filterButtonDesktop");
 const filterLib = document.getElementById("filterButtonLib");
 
-filterAll.addEventListener("click", filterProjects("all"));
-filterWeb.addEventListener("click", () => {
-  filterProjects("web");
-  loadProjects();
-});
-filterDesktop.addEventListener("click", filterProjects("desktop"));
-filterLib.addEventListener("click", filterProjects("library"));
-filterAndroid.addEventListener("click", filterProjects("mobile"));
+filterAll.addEventListener("click", () => displayProjects("all"));
+filterWeb.addEventListener("click", () => displayProjects("web"));
+filterDesktop.addEventListener("click", () => displayProjects("desktop"));
+filterLib.addEventListener("click", () => displayProjects("lib"));
+filterAndroid.addEventListener("click", () => displayProjects("mobile"));
