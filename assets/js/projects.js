@@ -3,7 +3,7 @@ let projects = [];
 async function loadProjects() {
   const response = await fetch("../../data/projects.json");
   projects = await response.json();
-  displayProjects("lib");
+  displayProjects("all");
 }
 
 function displayProjects(category) {
